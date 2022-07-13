@@ -72,8 +72,8 @@ const BGContainer = styled.div<BGCProps>`
 
   background: ${(props) =>
     props.currentTime >= 5 && props.currentTime < 18
-      ? 'url("/assets/desktop/bg-image-daytime.jpg")'
-      : 'url("/assets/desktop/bg-image-nighttime.jpg")'};
+      ? 'url("./assets/desktop/bg-image-daytime.jpg")'
+      : 'url("./assets/desktop/bg-image-nighttime.jpg")'};
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,15 +85,15 @@ const BGContainer = styled.div<BGCProps>`
   @media (max-width: 768px) {
     background: ${(props) =>
       props.currentTime >= 5 && props.currentTime < 18
-        ? 'url("/assets/tablet/bg-image-daytime.jpg")'
-        : 'url("/assets/tablet/bg-image-nighttime.jpg")'};
+        ? 'url("./assets/tablet/bg-image-daytime.jpg")'
+        : 'url("./assets/tablet/bg-image-nighttime.jpg")'};
   }
 
   @media (max-width: 375px) {
     background: ${(props) =>
       props.currentTime >= 5 && props.currentTime < 18
-        ? 'url("/assets/mobile/bg-image-daytime.jpg")'
-        : 'url("/assets/mobile/bg-image-nighttime.jpg")'};
+        ? 'url("./assets/mobile/bg-image-daytime.jpg")'
+        : 'url("./assets/mobile/bg-image-nighttime.jpg")'};
 
     background-size: cover;
   }

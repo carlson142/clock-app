@@ -15,7 +15,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  background: url("/assets/515132_original.jpg");
   background: url(${bg});
 
   background-repeat: no-repeat;
