@@ -1,0 +1,15 @@
+.iconx {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+
+  //   transform: scale(1);
+  //   transition: all 0.3s ease-in;
+  color: red;
+
+  :hover {
+    // transform: scale(1.1);
+
+    color: blue;
+  }
+}
