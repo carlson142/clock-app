@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import bg from "../assets/515132_original.jpg";
+
 const Container = styled.div`
   height: 100vh;
   width: 100vw;
@@ -14,6 +16,8 @@ const Container = styled.div`
   align-items: center;
 
   background: url("/assets/515132_original.jpg");
+  background: url(${bg});
+
   background-repeat: no-repeat;
   background-size: cover;
 `;
